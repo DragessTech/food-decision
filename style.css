@@ -23,3 +23,12 @@ body {
   text-align: center;
 }
 
+#divElement{
+	position: absolute;
+    top: 75%;
+    left: 50%;
+    width: 500px;
+    height: 300px;
+    margin-left: -250px;
+    margin-top: -150px;
+}
