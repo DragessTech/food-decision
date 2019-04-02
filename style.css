@@ -10,13 +10,14 @@ body {
 
 #Heading,
 #Form,
+#foodForm,
 #Disclaimer {
   display: content;
   max-width: 400px;
   background-color: lightblue;
   border: 1px solid;
   padding: 10px;
-  box-shadow: 5px 10px 8px lightblue;
+  box-shadow: 5px 8px 6px lightblue;
   background-border: 1;
   background-position: center;
   background-repeat: no-repeat;
