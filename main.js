@@ -15,7 +15,36 @@ var fastFood = [
   "Jack in the Box",
   "Dairy Queen"
 ];
+
+var foodType = [
+	"African",
+	"American",
+	"Breakfast",
+	"Burgers",
+	"Caribbean",
+	"Chinese",
+	"French",
+	"Indian",
+	"Italian",
+	"Japanese",
+	"Korean",
+	"Mediterranean",
+	"Mexican",
+	"Pizza",
+	"Sandwiches",
+	"Seafood",
+	"Spanish",
+	"Vegan",
+	"Vegetarian",
+	"Vietnamese",
+	"Thai",
+];
+
 fastFood.sort();
+foodType.sort();
+
 var randomAnswer = fastFood[Math.floor(Math.random() * fastFood.length)];
+var randomType = foodType[Math.floor(Math.random() * foodType.length)];
 
 //console.log(randomAnswer)
+//console.log(randomType)
